@@ -2,7 +2,7 @@
 #app h1 {
 	color: var(--black);
 	font-family: Shift-BoldItalic, serif;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	margin-bottom: 0.5rem;
 }
 #app h2 {
@@ -29,16 +29,25 @@
 
 #app footer {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 #app footer > p {
 	flex: 1;
 }
+#app footer .note {
+	color: var(--grey02);
+	flex: 0 0 100%;
+	font-family: BentonSansCond-RegItalic, italic;
+}
+
+#app footer > div {
+	margin-top: 0 !important;
+}
 
 #app .note,
 #app .source,
 #app .credit {
-	color: var(--grey02);
 	font-size: 0.8rem;
 }
 
@@ -50,3 +59,9 @@
 	color: inherit;
 }
 
+@media only screen and (min-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+    #app h1 {
+    	font-size: 2rem;
+    }
+}

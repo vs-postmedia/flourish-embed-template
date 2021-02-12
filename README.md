@@ -1,5 +1,5 @@
 # graphics-template
-Basic template to bootstrap interactive graphics. Made with Webpack & node.
+Basic template to bootstrap multiple flourish embeds into a single graphic. Made with Webpack & node.
 
 # embed code
-[protected-iframe id="091101" info="https://vs-postmedia.github.io/[graphic-slug]/" scrolling="no" width="100%" height="600"]
+[protected-iframe id="999999" info="https://vs-postmedia.github.io/[graphic-slug]/" height="600"]
