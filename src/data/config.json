@@ -1,0 +1,13 @@
+{
+	"id": "#app",
+	"headline": "HED",
+	"subhead": "Subhed tk (accepts html code)",
+	"source_text": "tk",
+	"source_url": "tk",
+	"credit": "N. Griffiths / Postmedia News",
+	"fill_colours": [
+		"#009775",
+		"#0062A3",
+		"#231F20"
+	]
+}

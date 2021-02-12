@@ -1,0 +1,76 @@
+:root {
+	/* greens */
+	--green01: #009775;
+	--green02: #34A185;
+	--green03: #62AD95;
+	--green04: #84BBA8;
+	--green05: #a4cabc;
+	--green06: #C5DBD2;
+
+	/* yellows */
+	--yellow01: #F6B31C;
+	--yellow02: #F8C052;
+	--yellow03: #FACE7C;
+	--yellow04: #FBD590;
+	--yellow05: #FDE0AE;
+	--yellow06: #FEEBCE;
+
+	/* reds */
+	--red01: #DD2D25;
+	--red02: #E35D42;
+	--red03: #e67154;
+	--red04: #eb8c6f;
+	--red05: #f2b19a;
+	--red06: #f9dacd;
+
+	
+	/* oranges */
+	--orange01: #F26B21;
+	--orange02: #F58745;
+	--orange03: #f8a26e;
+	--orange04: #f9b082;
+	--orange05: #fcceae;
+	--orange06: #fdddc6;
+
+	/* blues */
+	--blue01: #0062A3;
+	--blue02: #3C76B0;
+	--blue03: #6D8EBF;
+	--blue04: #829DC7;
+	--blue05: #AFBEDB;
+	--blue06: #D4DAEA;
+
+	/* purples (bright) */
+	--brite_purple01: #9B3F86;
+	--brite_purple02: #A96399;
+	--brite_purple03: #B174A2;
+	--brite_purple04: #C395B8;
+	--brite_purple05: #D2B1CA;
+	--brite_purple06: #DCC5D7;
+
+	/* purples (dark) */
+	--dark_purple01: #795b9e;
+	--dark_purple02: #8c73ad;
+	--dark_purple03: #a28ebd;
+	--dark_purple04: #bbaed1;
+	--dark_purple05: #cdc4de;
+	--dark_purple06: #dfd9ea;
+
+	/* black */
+	--black: #231F20;
+
+	/* greys */
+	--grey01: #6D6E70;
+	--grey02: #898B8E;
+	--grey03:#A7A9AB;
+	--grey04:#D1D2D4;
+	--grey05:#EAEBEC;
+
+	/* PARTY COLOURS */
+	--ndp: #F58645;
+	--liberal: #E35D42;
+	--conservative: #3C76B0;
+	--green: #34A185;
+	--libertarian: #F8C052;
+	--bloc: #54A8DF;
+}
