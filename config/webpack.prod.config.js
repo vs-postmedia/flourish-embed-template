@@ -20,14 +20,6 @@ module.exports = {
 	entry: { 
 		main: path.resolve(ROOT_DIR, 'src/index.js')
 	},
-	output: {
-		path: path.resolve(ROOT_DIR, 'dist'),
-		// add hashing for better caching
-		filename: '[name].[contenthash:8].bundle.js',
-		chunkFilename: '[name].[contenthash:8].chunk.js',
-		// for gh-pages – 
-      	publicPath: './'
-	},
 	module: {
 		rules: [
 			// CSS
@@ -195,6 +187,14 @@ module.exports = {
 		splitChunks: {
 			chunks: 'all'
 		}
+	},
+	output: {
+		path: path.resolve(ROOT_DIR, 'dist'),
+		// add hashing for better caching
+		filename: '[name].[contenthash:8].bundle.js',
+		chunkFilename: '[name].[contenthash:8].chunk.js',
+		// for gh-pages – 
+      	publicPath: './'
 	},
 	plugins: [
 		// clean the build directory
