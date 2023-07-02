@@ -29,6 +29,13 @@ module.exports = {
 		main: path.resolve(ROOT_DIR, 'src/index.js')
 	},
 	mode: 'development',
+	output: {
+		path: path.resolve(ROOT_DIR, 'dist'),
+		filename: '[name].bundle.js',
+		chunkFilename: '[name].chunk.js'
+		// Tweak this to match your GitHub project name
+      	// publicPath: publicPath
+	},
 	module: {
 		rules: [
 			// CSS
@@ -148,13 +155,6 @@ module.exports = {
 				]
 			}
 		]
-	},
-	output: {
-		path: path.resolve(ROOT_DIR, 'dist'),
-		filename: '[name].bundle.js',
-		chunkFilename: '[name].chunk.js'
-		// Tweak this to match your GitHub project name
-      	// publicPath: publicPath
 	},
 	plugins: [
 		new HtmlWebpackPlugin({

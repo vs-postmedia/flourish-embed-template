@@ -1,6 +1,6 @@
 {
-  "name": "njgriffiths.github.io",
-  "homepage": "https://vs-postmedia.github.io/njgriffiths.github.io/",
+  "name": "flourish-embed-template",
+  "homepage": "https://vs-postmedia.github.io/flourish-embed-template/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,15 +13,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "browser": {
-    "fs": false,
-    "os": false,
-    "path": false
-  },
   "dependencies": {
-    "@babel/runtime": "^7.10.2",
-    "photoswipe": "^5.3.6",
-    "vanilla-lazyload": "^17.8.3"
+    "@babel/runtime": "^7.10.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

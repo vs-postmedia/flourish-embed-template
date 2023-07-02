@@ -1,18 +1,14 @@
-// JS
-import LazyLoad from 'vanilla-lazyload';
-
-// CSS
+// // CSS
 import './css/main.css';
 import './css/normalize.css';
-
-// IMG
-import imageList from './data/image-list';
-import placeholder from './images/placeholder.png';
+import './css/postmedia.css';
+import './css/colors.css';
+import './css/fonts.css';
 
 
 // JS
-const init = async () => {
-    const myLazyLoad = new LazyLoad();
-}
+// const init = async () => {
 
-init();
+// };
+
+// init();
