@@ -12,8 +12,11 @@
     // COMPONENTS
 
     // SET CHART HEIGH & URL HERE...
-    const chartHeight = '575px';
-    const flourishStoryUrl = 'https://flo.uri.sh/story/975711/embed';
+    const chartId01 = '5258140';
+    const chartId02 = '5258446';
+    const chartHeight = '375px';
+    const fullWidthId = '25071549'
+    const fullWidthHeight = '300px';
 
     // FUNCTIONS
     const updateStep = function(currentStep) {
@@ -25,20 +28,21 @@
 </script>
 
 <!-- MARKUP -->
-    <header>
-        <h1>HED</h1>
-        <p class="subhead">TK TK TK</p>
-    </header>
-            <!-- SIDE-BY-SIDE -->
-			<div class="graphic-container">
-				<iframe src='https://flo.uri.sh/visualisation/5258140/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:375px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
-				<iframe src='https://flo.uri.sh/visualisation/5258446/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:375px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
-			</div>
+<header>
+    <h1>HED</h1>
+    <p class="subhead">TK TK TK</p>
+</header>
 
-			<!-- FULL WIDTH -->
-			<div class="graphic-container full-width">
-				<iframe src='https://flo.uri.sh/visualisation/8793247/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:200px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
-			</div>
+<!-- SIDE-BY-SIDE -->
+<div class="graphic-container">
+    <iframe src='https://flo.uri.sh/visualisation/{chartId01}/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:{chartHeight};' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+    <iframe src='https://flo.uri.sh/visualisation/{chartId02}/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:{chartHeight};' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+</div>
+
+<!-- FULL WIDTH -->
+<div class="graphic-container full-width">
+    <iframe src='https://flo.uri.sh/visualisation/{fullWidthId}/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:{fullWidthHeight};' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+</div>
 
 <footer>
     <p class="source">Source:
