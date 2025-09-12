@@ -36,7 +36,7 @@
 
 <!-- IMAGES -->
  <div class="image-container">
-    <img src={gfx} />
+    <img src={gfx} alt="data visualization"/>
  </div>
 
 <footer>
