@@ -6,10 +6,8 @@
     import fonts from './css/fonts.css';
     import css from './css/main.css';
 
-    // VARS
-    let currentStep, iframe;
-    
-    // COMPONENTS
+    // IMAGES
+    import gfx from '/img/map.jpg';
 
     // SET CHART HEIGH & URL HERE...
     const chartId01 = '5258140';
@@ -17,14 +15,6 @@
     const chartHeight = '375px';
     const fullWidthId = '25071549'
     const fullWidthHeight = '300px';
-
-    // FUNCTIONS
-    const updateStep = function(currentStep) {
-        iframe = document.querySelector('#app .chart > iframe');
-        iframe.src = iframe.src.replace(/#slide-.*/, '') + '#slide-' + currentStep;
-    }
-    
-
 </script>
 
 <!-- MARKUP -->
@@ -43,6 +33,11 @@
 <div class="graphic-container full-width">
     <iframe src='https://flo.uri.sh/visualisation/{fullWidthId}/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:{fullWidthHeight};' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
 </div>
+
+<!-- IMAGES -->
+ <div class="image-container">
+    <img src={gfx} />
+ </div>
 
 <footer>
     <p class="source">Source:
