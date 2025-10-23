@@ -7,6 +7,10 @@
 	font-family: 'Shift-BoldItalic';
 	src: url('/fonts/Shift-BoldItalic.otf') format('opentype')
 }
+@font-face {
+	font-family: 'Shift-Book';
+	src: url('/fonts/Shift-Book.otf') format('opentype')
+}
 /* BENTON SANS */
 @font-face {
 	font-family: 'BentonSansCond-Regular';

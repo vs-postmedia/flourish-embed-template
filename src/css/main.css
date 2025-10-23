@@ -9,20 +9,22 @@
 .graphic-container {
 	display: flex;
 	justify-content: space-between;
-	margin: 1.5rem auto;
+	margin: 1rem auto 0.25rem auto;
 }
 
 .graphic-container.full-width {
 	display: block;
 }
 .graphic-container .flourish-chart,
-.graphic-container > iframe {
+.graphic-container > iframe,
+.graphic-container .img-div {
 	flex: 1;
-	max-width: 50%;
+	max-width: 48%;
 }
 
 .graphic-container.full-width .flourish-chart,
-.graphic-container.full-width > iframe {
+.graphic-container.full-width > iframe,
+.graphic-container.full-width > .img-div {
 	flex: 1;
 	max-width: 100%;
 }
@@ -30,31 +32,15 @@
 	margin-right: 0.5rem;
 }
 .image-container img {
-	width: 98%;
+	width: 100%;
 }
-
 
 
 
 
 @media only screen and (min-width: 600px) {
     /* Style adjustments for viewports that meet the condition */
-    .graphic-container {
-    	/*display: flex;*/
-    	/*justify-content: space-between;*/
-    }
 }
-/* COLOURS */
-.blue-01 {
-	background-color: var(--blue01);
-	border-radius: 2px;
-	color: #FFF;
-	padding: 1px 2px;
-}
-.green-01 {
-	background-color: var(--green01);
-	border-radius: 2px;
-	color: #FFF;
-	padding: 1px 2px;
-}
+
+
 

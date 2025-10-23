@@ -7,7 +7,7 @@
     import css from './css/main.css';
 
     // IMAGES
-    import gfx from '/img/map.jpg';
+    import gfx from '/images/map.jpg';
 
     // SET CHART HEIGH & URL HERE...
     const chartId01 = '5258140';
@@ -35,8 +35,10 @@
 </div>
 
 <!-- IMAGES -->
- <div class="image-container">
-    <img src={gfx} alt="data visualization"/>
+ <div class="graphic-container">
+    <div class="img-container">
+        <img src={gfx} alt="data visualization"/>
+    </div>
  </div>
 
 <footer>

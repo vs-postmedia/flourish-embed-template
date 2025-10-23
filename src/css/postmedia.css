@@ -30,6 +30,8 @@
 	margin: 0;
 }
 #app .subhead {
+	font-family: 'Shift-Book';
+    font-size: 1.2rem;
 	text-align: left;
 }
 #app footer {
@@ -55,3 +57,24 @@
 	color: inherit;
 }
 
+
+.bold {
+	font-family: 'BentonSansCond-Bold';
+}
+.italic {
+	font-family: 'BentonSansCond-RegItalic';
+}
+
+/* COLOURS */
+.blue-01 {
+	background-color: var(--blue01);
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
+.green-01 {
+	background-color: var(--green01);
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
