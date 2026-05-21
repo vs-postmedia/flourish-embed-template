@@ -4,22 +4,50 @@
 		<meta charset="UTF-8">
 		<meta name="description" content="">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-  		<!-- <link rel="manifest" href="site.webmanifest"> -->
-  		<link rel="apple-touch-icon" href="icon.png">
-  		<!-- Place favicon.ico in the root directory -->
-
-  		<meta name="theme-color" content="#fafafa">
-  		<title>Flourish embed template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" href="icon.png">
+		<meta name="theme-color" content="#fafafa">
+		<title>Flourish embed template</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/colors.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/postmedia.css">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
-
 	<body>
-		<!--[if IE]>
-    		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  		<![endif]-->
+		<div id="app">
 
-		<div id="app"></div>
+			<header>
+				<h1>HED</h1>
+				<p class="subhead">TK TK TK</p>
+			</header>
+
+			<!-- SIDE-BY-SIDE -->
+			<div class="graphic-container">
+				<iframe src='https://flo.uri.sh/visualisation/5258140/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:375px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+				<iframe src='https://flo.uri.sh/visualisation/5258446/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:375px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			</div>
+
+			<!-- FULL WIDTH -->
+			<div class="graphic-container full-width">
+				<iframe src='https://flo.uri.sh/visualisation/25071549/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:300px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			</div>
+
+			<!-- IMAGE -->
+			<div class="graphic-container">
+				<div class="image-container">
+					<img src="images/map.jpg" alt="data visualization">
+				</div>
+			</div>
+
+			<footer>
+				<p class="source">Source:
+					<a href="https://www.vancouversun.com/" target="_blank">tk</a>,
+					<a href="https://www.openstreetmap.org/" target="_blank">tk</a>
+				</p>
+				<div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/3706064/?utm_source=embed&utm_campaign=visualisation/3706064' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'></a></div>
+			</footer>
+
+		</div>
 	</body>
-    <script type="module" src="/src/main.js"></script>
 </html>

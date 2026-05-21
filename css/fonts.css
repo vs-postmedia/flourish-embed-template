@@ -1,0 +1,31 @@
+/* SHIFT */
+@font-face {
+	font-family: 'Shift-Bold';
+	src: url('../fonts/Shift-Bold.otf') format('opentype')
+}
+@font-face {
+	font-family: 'Shift-BoldItalic';
+	src: url('../fonts/Shift-BoldItalic.otf') format('opentype')
+}
+@font-face {
+	font-family: 'Shift-Book';
+	src: url('../fonts/Shift-Book.otf') format('opentype')
+}
+/* BENTON SANS */
+@font-face {
+	font-family: 'BentonSansCond-Regular';
+	src: url('../fonts/BentonSansCond-Regular.otf') format('opentype')
+}
+@font-face {
+	font-family: 'BentonSansCond-RegItalic';
+	src: url('../fonts/BentonSansCond-RegItalic.otf') format('opentype')
+}
+@font-face {
+	font-family: 'BentonSansCond-Bold';
+	src: url('../fonts/BentonSansCond-Bold.otf') format('opentype')
+}
+@font-face {
+	font-family: 'BentonSansCond-BoldItalic';
+	src: url('../fonts/BentonSansCond-BoldItalic.otf') format('opentype')
+}
+
